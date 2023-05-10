@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+
+
+</head>
+    <body>
+        <header>
+            <img class="logo" src="logo.png" alt="logotipo da aplicação">
+        </header>
+
+
+        <main>
+
+            <section>
+
+                <textarea class="text-area" cols="40" rows="4" placeholder="Digite seu texto"></textarea>
+                
+                <div class="informacao">
+                    <h6>&#9888; Apenas letras minúsculas e sem acento.</h6>
+                </div>
+            
+                <div class="botoes">
+                    <button onclick="btnEncriptar()" class="btn-encriptar">Criptografar</button>
+                    <button onclick="btnDesencriptar()" class="btn-desencriptar">Descriptografar</button>
+                </div>
+
+            </section>
+
+
+            <section class="caixa-resultado">
+
+                <textarea placeholder=" "class="mensagem" cols="20" rows="10"></textarea>
+                <input class="copiar" type="button" value="copiar">
+
+            </section>
+
+        </main>
+
+        <footer>
+            <h4 class="dev-by">&copy; Desenvolvido por Antonio Andrade</h4>
+        </footer>
+
+        
+
+
+    <script src="script.js"></script>
+    </body>
+
+</html>
+

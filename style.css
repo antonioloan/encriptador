@@ -1,0 +1,139 @@
+*{
+    background-color: grey;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+
+.logo{
+    width: 10%;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+display: flex;
+margin-bottom: 50px;
+margin-left: 80px;
+}
+
+.text-area{
+    background-color: grey;
+    border: none;
+    margin-top: 30px;
+    color: rgb(88, 79, 79);
+    text-transform: lowercase;
+   
+}
+
+.inserir-texto::placeholder{
+    outline: none;
+    color: rgb(88, 79, 79);
+
+}
+
+.informacao{
+    line-height: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(61, 57, 57);
+}
+
+.mensagem{
+    background-color: #ffbe0b;
+    border: none;
+    border-radius: 24px;
+    color: rgb(88, 79, 79);
+    margin-left: 98px;
+    margin-top: -100px;
+    padding-left: 20px;
+    position: fixed;
+
+}
+.mensagem::placeholder{
+    background-image: url(boneco.png);
+    opacity: 85%;
+    background-size: 98%;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 380px;
+    padding: 40px;
+}
+
+.mensagem:focus{
+    outline: none;
+    background-image: none;
+}
+  
+.copiar{
+    background: linear-gradient(black, rgb(66, 55, 55));
+    color: white;
+    font-weight: 400;
+    border-radius: 20px;
+    width: 200px;
+    margin-left: 123px;
+    margin-top: 315px;
+    position: absolute;
+    width: 336px;
+    cursor: pointer;
+}
+
+
+.botoes{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar{    
+    display: inline-block;
+    background: linear-gradient(rgb(255, 190, 11), rgb(196, 144, 1)) ;
+    width: 300px;
+    height: 80px;
+    border: 2px solid rgb(88, 79, 79);
+    border-radius: 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    color: rgb(88, 79, 79);
+    font-weight: bold;
+    cursor: pointer;
+
+
+    
+
+}
+.btn-desencriptar{
+    background: linear-gradient(rgb(117, 112, 112), rgb(88, 79, 79))  ;
+    width: 300px;
+    height: 80px;
+    border: 2px solid rgb(255, 190, 11);
+    margin-left: 10px;
+    border-radius: 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 190, 11);
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+
+.dev-by{
+
+    position: absolute;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    margin-top: 50px;
+
+
+}
+
